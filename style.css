@@ -39,6 +39,7 @@ form {
 h4{
     background-color:  hsl(248, 32%, 49%);
     border-radius: 16px;
+    color: white;
 }
 
 p, h4{
