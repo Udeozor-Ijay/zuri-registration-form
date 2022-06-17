@@ -36,10 +36,20 @@ form {
     border-radius: 16px;
 }
 
+h1{
+    margin-bottom:0.5em;
+     padding: 0.5em;
+     font-size: 50px;
+     font-weight: 400 500 600 700;
+}
+
 h4{
+    margin-bottom: 2em;
+    padding: 0.8em;
     background-color:  hsl(248, 32%, 49%);
     border-radius: 16px;
     color: white;
+    box-shadow:5px 10px hsla(240, 2%, 47%, 0.445);
 }
 
 p, h4{
@@ -47,6 +57,7 @@ p, h4{
 }
 
 #box1 {
+    align-self: center;
     color: white;
     font-weight: 400, 500, 600, 700;
 }
@@ -54,3 +65,41 @@ p, h4{
 #box1,#box2 {
     padding: 2em;
 }
+
+input{
+    padding: 0.5em;
+    font-family: 'Poppin', Courier, monospace;
+}
+
+@media only screen and (max-width: 844px){
+ main {
+         flex-wrap: wrap;
+         align-self: center;
+    }
+
+    #box1{
+        align-self: center;
+    }
+
+    input {
+        margin: 1em;
+    }
+}
+
+
+@media only screen and (max-width: 375px) {
+
+    main {
+         flex-wrap: wrap;
+         align-self: center;
+    }
+
+    #box1{
+        align-self: center;
+    }
+
+    input {
+        margin: 1em;
+    }
+}
+    
