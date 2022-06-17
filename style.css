@@ -43,16 +43,22 @@ h1{
      font-weight: 400 500 600 700;
 }
 
-h4{
+div{
     margin-bottom: 2em;
-    padding: 0.8em;
+    padding: 0.4em;
+    border: none;
+    text-align: center;
     background-color:  hsl(248, 32%, 49%);
     border-radius: 16px;
     color: white;
     box-shadow:5px 10px hsla(240, 2%, 47%, 0.445);
 }
 
-p, h4{
+h4{
+    padding: 0.2em;
+}
+
+p{
     margin-bottom: 1em;
 }
 
